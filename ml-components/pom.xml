@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>java-machine-learning-web-api</artifactId>
+        <groupId>com.github.chen0040</groupId>
+        <version>1.0.1</version>
+    </parent>
+    <packaging>pom</packaging>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ml-components</artifactId>
+
+    <modules>
+        <module>op-core</module>
+        <module>op-search</module>
+        <module>sk-utils</module>
+        <module>sk-statistics</module>
+        <module>sk-dom</module>
+        <module>ml-core</module>
+        <module>ml-tune</module>
+        <module>ml-dataproc</module>
+        <module>ml-commons</module>
+        <module>ml-ann</module>
+        <module>ml-falcon</module>
+        <module>ml-arm</module>
+        <module>ml-bayes</module>
+        <module>ml-clustering</module>
+        <module>ml-gaussianmix</module>
+        <module>ml-fuzzylogic</module>
+        <module>ml-glm</module>
+        <module>ml-knn</module>
+        <module>ml-linearalg</module>
+        <module>ml-lm</module>
+        <module>ml-lof</module>
+        <module>ml-reinforcement</module>
+        <module>ml-svm</module>
+        <module>ml-trees</module>
+        <module>ml-text-retrieval</module>
+        <module>ml-text-mining</module>
+        <module>ml-images</module>
+    </modules>
+
+
+
+</project>

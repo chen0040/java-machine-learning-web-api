@@ -1,0 +1,105 @@
+<ol class="breadcrumb">
+    <li><a href="#/projects">Projects</a></li>
+    <li>Project: <a class="badge" ng-href="#/projects/{{project.id}}">{{project.title}}</a></li>
+    <li class="active">Algorithm: <span class="badge">{{module.title}}</span></li>
+</ol>
+
+<div class="panel panel-info">
+    <div class="panel-heading">
+        <span class="badge">{{beautifyString(module.description)}}</span> {{module.title}}
+        <span class="pull-right">
+             {{module.created}}
+        </span>
+    </div>
+    <div class="panel-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                    Title:
+                </div>
+                <div class="col-md-10">
+                    <span ng-show="!isTitleEditing()" ng-click="editTitle()">{{module.title}}</span>
+                    <span ng-show="isTitleEditing()">
+                        <input type='text' ng-model="module.title"/>
+                        <button class="btn-xs btn-success" ng-click="commitEditingTitle()">Commit</button>
+                        <button class="btn-xs btn-warning" ng-click="cancelEditingTitle()">Cancel</button>
+                    </span>
+
+                    <span class="btn-sm btn-success pull-right" ng-show="module.modelSource.id">
+                        <span class="glyphicon glyphicon-ok"></span> Is Trained
+                    </span>
+                    <span class="btn-sm btn-warning pull-right" ng-hide="module.modelSource.id">
+                        <span class="glyphicon glyphicon-alert"></span> Need Training
+                    </span>
+                </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2">
+                        Template:
+                    </div>
+                    <div class="col-md-10">
+                        <span>{{module.prototype}}</span>
+                    </div>
+                </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    Parent:
+                </div>
+                <div class="col-md-10">
+                    <span><a ng-href="#/projects/{{project.id}}">{{project.title}}</a></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">ID:</div>
+                <div class="col-md-10">
+                    {{module.id}}
+                    <span class="pull-right">
+                        <button class="btn-xs btn-danger" ng-click="deleteModule();">-</button>
+                        <button class="btn-xs btn-warning"
+                                ng-click="editTitle();">Edit
+                        </button>
+                        <button ng-click="trainModule();" class="btn-xs btn-success">Train</button>
+
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="panel panel-info" ng-show="module.attributes">
+    <div class="panel-heading">Parameters</div>
+    <div class="panel-body">
+        <button ng-click="saveModule();" class="btn-xs btn-success pull-right" style="margin-right:12px;">Save</button>
+
+            <table st-table="attributes" st-select-row="row" class="table table-striped" >
+            <thead>
+                <th>Name</th>
+                <th>Value</th>
+            </thead>
+            <tbody>
+                <tr ng-repeat = "attr in attributes">
+                    <td>
+                        {{attr.name}}
+                    </td>
+                    <td>
+                        <input type="text" ng-model="attr.value" />
+                    </td>
+                </tr>
+             </tbody>
+            </table>
+    </div>
+</div>
+
+<div class="panel panel-info" ng-show="module.model">
+    <div class="panel-heading">Model</div>
+    <div class="panel-body" style="background-color:#FFF8DC">
+        <json-formatter json="module.model" open="1"></json-formatter>
+    </div>
+</div>
+
+
+

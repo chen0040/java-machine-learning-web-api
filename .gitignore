@@ -1,0 +1,13 @@
+.idea/
+/../.idea/
+/.idea/libraries/
+/**/.idea/
+/localrepo/
+/lib/
+/**/*.iml
+.iml
+/**/devops/**/*.jar
+/**/**/node_modules
+/**/**/typings
+/**/app/*.js
+/**/app/*.map

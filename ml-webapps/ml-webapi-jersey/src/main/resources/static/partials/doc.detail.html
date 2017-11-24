@@ -1,0 +1,40 @@
+<div class="panel panel-primary">
+    <div class="panel-heading"><span class="badge">Document</span></div>
+    <div class="panel-body">
+
+
+        <div style="width:100%;height:250px;overflow:auto;">
+        <table class="table table-striped" ng-show="doc">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Message</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="log in doc.rawContents track by $index">
+                    <td>{{$index}}</td>
+                    <td>{{log}}</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+        <div class="height:100px;overflow:auto">
+            <table class="table table-striped" ng-show="doc">
+                <thead>
+                    <tr><th>Name</th><th>Value</th></tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="(key, value) in doc.attributes"><td>{{key}}</td><td>{{value}}</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row" style="margin-bottom:5px">
+            <div class="col-md-12">
+                <button class="btn-xs btn-info pull-right" ng-click="ok();" style="margin-right:10px;">OK</button>
+            </div>
+        </div>
+    </div>
+</div>

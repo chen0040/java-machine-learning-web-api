@@ -1,0 +1,50 @@
+<ol class="breadcrumb">
+    <li><a href="#/projects">Projects</a></li>
+    <li><a href="#/create-project">Create Project</a></li>
+</ol>
+
+<div class="container-fluid">
+
+
+    <div class="row">
+        <div class="col-md-12" ng-repeat="project in projects">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <span>Project: <a ng-href="#/projects/{{project.id}}" class="badge">{{project.title}}</a></span>
+                            <span class="pull-right">{{project.created}}</span>
+                        </div>
+                        <div class="panel-body">
+                    <p>
+                    <span ng-show="!isTitleEditing(project)" ng-click="editTitle(project);">
+                        Code Name: {{project.title}}
+                    </span>
+                    <span ng-show="isTitleEditing(project)">
+                        Code Name:
+                        <input class="form-control input-xs" type="text" ng-model="project.title"/>
+                        <button class="btn-xs btn-success" ng-click="commitEditingTitle(project);">Commit</button>
+                        <button class="btn-xs btn-warning" ng-click="cancelEditingTitle(project);">Cancel</button>
+                    </span>
+                    </p>
+
+                    <p>ID: {{project.id}}</p>
+                    <p>
+                        <span ng-click="editDescription(project);" ng-show="!isDescriptionEditing(project)">
+                            Description: {{project.description}}
+                        </span>
+                        <span ng-show="isDescriptionEditing(project)">
+                            Description:
+                            <input class="form-control input-xs" type="text" ng-model="project.description"/>
+                            <button class="btn-xs btn-success" ng-click="commitEditingDescription(project);">Commit</button>
+                            <button class="btn-xs btn-warning" ng-click="cancelEditingDescription(project);">Cancel</button>
+                        </span>
+                    </p>
+                    <p>
+                        <button class="btn-xs btn-danger" ng-click="deleteProject(project);">-</button>
+                        <button class="btn-xs btn-warning" ng-click="editTitle(project);editDescription(project);">Edit</button>
+                        <button ng-click="viewProjectDetail(project);" class="btn btn-xs btn-info">View</button>
+                    </p>
+                            </div>
+                    </div>
+        </div>
+        </div>
+</div>

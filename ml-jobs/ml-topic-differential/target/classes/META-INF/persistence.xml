@@ -1,0 +1,32 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+    http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0">
+
+    <persistence-unit name="cassandra_pu">
+        <provider>com.impetus.kundera.KunderaPersistence</provider>
+
+        <class>com.simukit.meme.ml.models.AlgorithmModule</class>
+        <class>com.simukit.meme.ml.models.TopicModel</class>
+
+        <!-- This will exclude all other classes annotated with @Entity that is
+       not declared above. Otherwise JPA will scan ALL classes in the Project and
+       create all of them. -->
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+
+        <properties>
+            <property name="kundera.nodes" value="172.16.2.116,172.16.2.117,172.16.2.118"/>
+            <property name="kundera.port" value="9042"/>
+            <property name="kundera.keyspace" value="neuro01"/>
+            <property name="kundera.dialect" value="cassandra"/>
+            <property name="kundera.client.lookup.class" value="com.impetus.kundera.client.cassandra.dsdriver.DSClientFactory" />
+            <!--<property name="kundera.cache.provider.class" value="com.impetus.kundera.cache.ehcache.EhCacheProvider"/>-->
+            <!--<property name="kundera.cache.config.resource" value="/ehcache-test.xml"/>-->
+            <property name="kundera.ddl.auto.prepare" value="update" />  <!-- update -->
+        </properties>
+
+
+
+    </persistence-unit>
+</persistence>

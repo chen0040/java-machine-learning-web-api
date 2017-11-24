@@ -1,0 +1,3 @@
+com\simukit\meme\ml\knn\tests\classifiers\TestKNNClassifier.class
+com\simukit\meme\ml\knn\tests\anomaly\unsupervised\TestORCA.class
+com\simukit\meme\ml\knn\tests\utils\FileUtils.class

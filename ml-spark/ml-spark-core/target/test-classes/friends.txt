@@ -1,0 +1,6 @@
+A B,C,D,F
+F A,C,D
+E F,B,A
+B H,I,J,C,E
+H A,B,C,E
+D F,H,L

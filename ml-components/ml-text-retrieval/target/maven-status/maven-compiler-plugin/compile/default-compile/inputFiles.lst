@@ -1,0 +1,13 @@
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-text-retrieval\src\main\java\com\simukit\meme\ml\textretrieval\filters\PunctuationFilter.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-text-retrieval\src\main\java\com\simukit\meme\ml\textretrieval\filters\TextFilter.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-text-retrieval\src\main\java\com\simukit\meme\ml\textretrieval\analyzers\DocumentAnalyzer.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-text-retrieval\src\main\java\com\simukit\meme\ml\textretrieval\analyzers\BasicDocumentAnalyzer.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-text-retrieval\src\main\java\com\simukit\meme\ml\textretrieval\filters\PorterStemmer.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-text-retrieval\src\main\java\com\simukit\meme\ml\textretrieval\Vocabulary.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-text-retrieval\src\main\java\com\simukit\meme\ml\textretrieval\filters\LowerCase.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-text-retrieval\src\main\java\com\simukit\meme\ml\textretrieval\tokenizers\BasicTokenizer.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-text-retrieval\src\main\java\com\simukit\meme\ml\textretrieval\BasicVocabulary.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-text-retrieval\src\main\java\com\simukit\meme\ml\textretrieval\filters\AbstractTextFilter.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-text-retrieval\src\main\java\com\simukit\meme\ml\textretrieval\filters\StopWordRemoval.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-text-retrieval\src\main\java\com\simukit\meme\ml\textretrieval\tokenizers\Tokenizer.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-text-retrieval\src\main\java\com\simukit\meme\ml\textretrieval\filters\WordSegmentation.java

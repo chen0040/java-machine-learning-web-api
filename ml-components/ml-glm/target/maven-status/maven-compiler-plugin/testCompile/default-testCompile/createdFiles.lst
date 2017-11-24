@@ -1,0 +1,6 @@
+com\simukit\meme\ml\glm\tests\AllTestSuite.class
+com\simukit\meme\ml\glm\tests\utils\FileUtils.class
+com\simukit\meme\ml\glm\tests\logistic\TestGlmIrlsLogistic$1.class
+com\simukit\meme\ml\glm\tests\logistic\TestGlmIrlsLogistic.class
+com\simukit\meme\ml\glm\tests\anomaly\TestLogisticAnomalyDetector.class
+com\simukit\meme\ml\glm\tests\binaryclassifiers\TestLogisticBinaryClassifier.class

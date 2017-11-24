@@ -1,0 +1,9 @@
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-svm\src\test\java\com\simukit\meme\ml\svm\tests\binaryclassifiers\basic\BasicSVCTest.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-svm\src\test\java\com\simukit\meme\ml\svm\tests\utils\FileUtils.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-svm\src\test\java\com\simukit\meme\ml\svm\tests\binaryclassifiers\basic\BasicLinearSVMWithSGDTest.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-svm\src\test\java\com\simukit\meme\ml\svm\tests\binaryclassifiers\basic\BasicSMOSVCTest.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-svm\src\test\java\com\simukit\meme\ml\svm\tests\anomaly\supervised\AnomalySMOSVCTest.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-svm\src\test\java\com\simukit\meme\ml\svm\tests\anomaly\supervised\AnomalyPrimalSVMTest.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-svm\src\test\java\com\simukit\meme\ml\svm\tests\binaryclassifiers\spamming\TestSMOSVC.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-svm\src\test\java\com\simukit\meme\ml\svm\tests\anomaly\unsupervised\AnomalyOneClassSVMTest.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-svm\src\test\java\com\simukit\meme\ml\svm\tests\regressions\RegressionSVRTest.java

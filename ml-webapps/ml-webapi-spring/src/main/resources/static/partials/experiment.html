@@ -1,0 +1,191 @@
+<ol class="breadcrumb">
+    <li><a href="#/projects">Projects</a></li>
+    <li ng-show="project">Project: <a ng-href="#/projects/{{project.id}}" class="badge">{{project.name}}</a></li>
+    <li class="active">Experiment</li>
+</ol>
+
+<div class="panel panel-success" ng-show="projects">
+    <div class="panel-heading"><span class="badge">Settings</span></div>
+    <div class="panel-body">
+        <div class="container-fluid" style="margin-left:12px; margin-right:12px">
+            <div class="row">
+                <div class="col-md-3">Selected Project: </div>
+                <div class="col-md-9">
+                    <select ng-model="project" ng-options="proj as proj.name for proj in projects" ng-change="onProjectSelectionChanged()" />
+                </div>
+            </div>
+            <div class="row" ng-show="modules" style="margin-top:8px">
+                <div class="col-md-12">Algorithms: </div>
+                <div class="col-md-12">
+                    <span ng-repeat="module in modules" style="margin-top:8px">
+                        <input type="checkbox" ng-model="module.selected" />
+                        <span style="color:blue" ng-click="onModuleClicked(module.id)">{{module.name}}</span>
+                    </span>
+                </div>
+            </div>
+            <div class="row" ng-show="batches" style="margin-top:8px">
+                <div class="col-md-12">Data Sources: </div>
+                <div class="col-md-12">
+                    <span ng-repeat="batch in batches" style="margin-top:8px">
+                        <input type="checkbox" ng-model="batch.selected" />
+                        <a ng-href="#/batches/{{batch.id}}" style="text-decoration:none" target="_blank">{{batch.name}}</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="panel panel-success" ng-show="project">
+    <div class="panel-heading"><span class="badge">Train</span> &amp; <span class="badge">Evaluate</span></div>
+    <div class="panel-body">
+        <div class="container-fluid" style="margin-left:12px; margin-right:12px">
+            <div class="row">
+                <div class="col-md-3">Testing Mode: </div>
+                <div class="col-md-9">
+                    <select ng-model="project.testing" ng-options="tm as tm.mode for tm in project.testingModes" />
+                </div>
+            </div>
+            <div class="row" style="margin-top:8px" ng-show="isTrainingPortionFieldVisible()">
+                <div class="col-md-3">Training Proportion: </div>
+                <div class="col-md-9">
+                    <input type="text" ng-model="project.testing.trainingPortion" />
+                </div>
+            </div>
+            <div class="row" style="margin-top:8px" ng-show="isFoldCountFieldVisible()">
+                <div class="col-md-3">n (n-fold count): </div>
+                <div class="col-md-9">
+                    <input type="text" ng-model="project.testing.crossValidationFoldCount" />
+                </div>
+            </div>
+            <div class="row" style="margin-top:8px" ng-show="isLeaveOutCountFieldVisible()">
+                <div class="col-md-3">p (leave p out): </div>
+                <div class="col-md-9">
+                    <input type="text" ng-model="project.testing.crossValidationLeaveOutCount" />
+                </div>
+            </div>
+            <div class="row" style="margin-top:8px">
+                <div class="col-md-8">
+                    <progressbar animate="true" value="testing_progress" type="success" ng-show="testing_progress > 0"><b>{{testing_progress}}%</b></progressbar>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn-xs btn-success pull-right" ng-click="trainAndEvaluate()" ng-hide="testing_progress > 0">
+                        <span class="badge">Train</span> + <span class="badge">Evaluate</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="panel panel-success">
+    <div class="panel-heading"><span class="badge">Conclusions</span></div>
+    <div class="panel-body">
+        <tabset>
+            <tab>
+                <tab-heading>Classification</tab-heading>
+                <div class="container-fluid" style="margin-left:12px; margin-right:12px; margin-top:10px;" ng-show="classifierResults && classifierResults.length > 0">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="pull-right">
+                                <select type="text" ng-model="classifierResultChart.dataKey" ng-options="dk as dk for dk in classifierResultChart.dataKeys" ng-change="onClassifierResultChartDataKeyChanged()"/>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <nvd3 options="classifierResultChart.options" data="classifierResultChart.data"></nvd3>
+                        </div>
+                        <div class="col-md-6">
+                            <table style="border:1px;width:100%">
+                                <thead>
+                                <th>Algorithm</th>
+                                <th>DataSet</th>
+                                <th>Prediction Accuracy</th>
+                                </thead>
+                                <tr ng-repeat="classifierResult in classifierResults">
+                                    <td><span style="color:blue" ng-click="onModuleClicked(classifierResult.moduleId)">{{classifierResult.moduleName}}</span></td>
+                                    <td><a ng-href="#/batches/{{classifierResult.batchId}}" target="_blank">{{classifierResult.batchName}}</a></td>
+                                    <td><span style="color:blue">{{classifierResult.attributes.predictionAccuracy}}</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </tab>
+
+            <tab>
+                <tab-heading>Clustering</tab-heading>
+                <div class="container-fluid" style="margin-left:12px; margin-right:12px; margin-top:10px" ng-show="clusteringResults && clusteringResults.length > 0">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <span class="pull-right">
+                                    <select type="text" ng-model="clusteringResultChart.dataKey" ng-options="dk as dk for dk in clusteringResultChart.dataKeys" ng-change="onClusteringResultChartDataKeyChanged()"/>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <nvd3 options="clusteringResultChart.options" data="clusteringResultChart.data"></nvd3>
+                            </div>
+                            <div class="col-md-6">
+                                <table style="border:1px;width:100%">
+                                    <thead>
+                                    <th>Algorithm</th>
+                                    <th>DataSet</th>
+                                    <th>Davies–Bouldin Index</th>
+                                    <th>Clusters</th>
+                                    </thead>
+                                    <tr ng-repeat="clusteringResult in clusteringResults">
+                                        <td><span style="color:blue" ng-click="onModuleClicked(clusteringResult.moduleId)">{{clusteringResult.moduleName}}</span></td>
+                                        <td><a ng-href="#/batches/{{clusteringResult.batchId}}" target="_blank">{{clusteringResult.batchName}}</a></td>
+                                        <td><span style="color:blue">{{clusteringResult.attributes.DBI}}</span></td>
+                                        <td><span style="color:blue">{{clusteringResult.attributes.clusterCount}}</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </tab>
+
+            <tab>
+                <tab-heading>Anomaly Detection</tab-heading>
+                <div class="container-fluid" style="margin-left:12px; margin-right:12px; margin-top:10px" ng-show="anomalyResults && anomalyResults.length > 0">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <span class="pull-right">
+                                    <select type="text" ng-model="anomalyResultChart.dataKey" ng-options="dk as dk for dk in anomalyResultChart.dataKeys" ng-change="onAnomalyResultChartDataKeyChanged()"/>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <nvd3 options="anomalyResultChart.options" data="anomalyResultChart.data"></nvd3>
+                            </div>
+                            <div class="col-md-6">
+                                <table style="border:1px;width:100%">
+                                    <thead>
+                                    <th>Algorithm</th>
+                                    <th>DataSet</th>
+                                    <th>Anomaly Ratio</th>
+                                    </thead>
+                                    <tr ng-repeat="anomalyResult in anomalyResults">
+                                        <td><span style="color:blue" ng-click="onModuleClicked(anomalyResult.moduleId)">{{anomalyResult.moduleName}}</span></td>
+                                        <td><a ng-href="#/batches/{{anomalyResult.batchId}}" target="_blank">{{anomalyResult.batchName}}</a></td>
+                                        <td><span style="color:blue">{{anomalyResult.attributes.anomalyRatio}}</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </tab>
+            
+        </tabset>
+    </div>
+</div>
+
+

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<data>
+<observation>
+<entry value="0" />
+<entry value="0" />
+<entry value="0" />
+<entry value="1" />
+<entry value="0" />
+</observation>
+<observation>
+<entry value="0" />
+<entry value="0" />
+<entry value="1" />
+<entry value="0" />
+<entry value="1" />
+</observation>
+<observation>
+<entry value="0" />
+<entry value="0" />
+<entry value="0" />
+<entry value="0" />
+<entry value="1" />
+</observation>
+<observation>
+<entry value="0" />
+<entry value="0" />
+<entry value="1" />
+<entry value="0" />
+<entry value="1" />
+</observation>
+<observation>
+<entry value="0" />
+<entry value="0" />
+<entry value="0" />
+<entry value="0" />
+<entry value="1" />
+</observation>
+</data>

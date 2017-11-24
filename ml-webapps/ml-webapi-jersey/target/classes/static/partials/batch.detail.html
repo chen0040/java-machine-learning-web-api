@@ -1,0 +1,251 @@
+<ol class="breadcrumb">
+    <li><a href="#/projects">Projects</a></li>
+    <li>Project: <a ng-href="#/projects/{{project.id}}"><span class="badge">{{project.title}}</span></a></li>
+    <li class="active">Data Source: <span class="badge">{{batch.title}}</span></li>
+</ol>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <span class="badge">{{batch.title}}</span>
+        <span class="pull-right">
+             {{batch.created}}
+        </span>
+    </div>
+    <div class="panel-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                    Code Name:
+                </div>
+                <div class="col-md-10">
+                    <span ng-show="!isTitleEditing()" ng-click="editTitle()">{{batch.title}}</span>
+                    <span ng-show="isTitleEditing()">
+                        <input type='text' ng-model="batch.title"/>
+                        <button class="btn-xs btn-success" ng-click="commitEditingTitle()">Commit</button>
+                        <button class="btn-xs btn-warning" ng-click="cancelEditingTitle()">Cancel</button>
+                    </span>
+                </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-md-2">
+                        Data Format:
+                    </div>
+                    <div class="col-md-10">
+                        <span>{{batch.format}}</span>
+                    </div>
+                </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    Parent:
+                </div>
+                <div class="col-md-10">
+                    <span><a ng-href="#/projects/{{project.id}}">{{project.title}}</a></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    Description:
+                </div>
+                <div class="col-md-10">
+                    <span ng-show="!isDescriptionEditing()" ng-click="editDescription()">{{batch.description}}</span>
+                    <span ng-show="isDescriptionEditing()">
+                        <input type='text' ng-model="batch.description"/>
+                        <button class="btn-xs btn-success" ng-click="commitEditingDescription()">Commit</button>
+                        <button class="btn-xs btn-warning" ng-click="cancelEditingDescription()">Cancel</button>
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-2">ID:</div>
+                <div class="col-md-10">
+                    {{batch.id}}
+                    <span class="pull-right">
+                        <button class="btn-xs btn-danger" ng-click="deleteBatch();">-</button>
+                        <button class="btn-xs btn-warning"
+                                ng-click="editBatchTitle(batch);editBatchDescription(batch);">Edit
+                        </button>
+                        <button class="btn-xs btn-primary" ng-click="predictLabels(batch);">Predict Labels</button>
+
+                         <button class="btn-xs btn-primary"
+                                 ng-csv="getArray()" csv-header="getHeader()" filename="{{batch.id+'.csv'}}" field-separator="," decimal-separator="."
+                                 >Export</button>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="panel panel-primary" ng-show="batchPage">
+    <div class="panel-heading">Data</div>
+    <div class="panel-body">
+        <tabset>
+            <tab>
+                <tab-heading>
+                    Records <span class="badge">{{pageInfo.currentPage}} / {{pageInfo.numPages}} </span>
+                </tab-heading>
+
+
+                <pagination total-items="pageInfo.batchSize"
+                            ng-model="pageInfo.currentPage"
+                            items-per-page="pageInfo.pageSize"
+                            class="pagination-sm"
+                            boundary-links="true"
+                            rotate="false"
+                            ng-change="pageChanged()">
+                </pagination>
+
+                <br />
+
+                <div>
+                    Start Column (from 1 to {{cols.length}}): <input class="form-control input-xs" type="text" ng-model="f.colStart" style="width:60px" />
+                    End Column (from 1 to {{cols.length}}): <input class="form-control input-xs" type="text" ng-model="f.colEnd" style="width:60px"/>
+                    <button class="btn-xs btn-primary" ng-click="updateColumns()">Update Columns</button>
+
+                    <span class="row pull-right" style="margin-right:12px">
+                        Page Size: <select type="text" ng-model="pageInfo.pageSize" ng-options="pi as pi for pi in pageInfo.pageSizes" ng-change="pageSizeChanged()" />
+                    </span>
+                </div>
+
+                <table st-table="batchPage" st-select-row="row" class="table table-striped" >
+                    <thead>
+                    <tr>
+                        <th>Label</th>
+                        <th style="color:orange">Label-P</th>
+                        <th>Output</th>
+                        <th style="color:green">Output-P</th>
+                        <th ng-repeat="col in f.displayCols">{{attributeNames[col]}}</th>
+                        <th>Commands</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="tuple in batchPage">
+                        <td><button class="btn-xs btn-info" ng-click="updateTupleLabel(tuple)">{{tuple.labelOutput}}</button></td>
+                        <td style="color:orange">{{tuple.predictedLabelOutput}}</td>
+                        <td>{{tuple.numericOutput}}</td>
+                        <td style="color:green">{{tuple.predictedNumericOutput}}</td>
+                        <td ng-repeat="col in f.displayCols">
+                            {{tuple.model[col]}}
+                        </td>
+                        <td><button class="btn-xs btn-primary" ng-click="getDoc(tuple.index)">Doc</button></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </tab>
+
+            <tab heading="Classification Analysis" ng-show="classifierResult.data1">
+                <div class="container-fluid" style="margin-top:10px">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <span class="badge">{{classifierResult.correctness_count}}</span>
+                                    Correct Predictions
+                                </li>
+                            </ul></div>
+                        <div class="col-md-6">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <span class="badge">{{classifierResult.incorrectness_count}}</span>
+                                    Incorrect Predictions
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <nvd3 options="classifierResult.options1" data="classifierResult.data1"></nvd3>
+                        </div>
+                        <div class="col-md-6">
+                            <nvd3 options="classifierResult.options2" data="classifierResult.data2"></nvd3>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                       <div class="col-md-6">
+                            <nvd3 options="classifierResult.options3" data="classifierResult.data3"></nvd3>
+                        </div>
+                        <div class="col-md-6">
+                            <nvd3 options="classifierResult.options4" data="classifierResult.data4"></nvd3>
+                        </div>
+                    </div>
+                </div>
+            </tab>
+
+
+
+            <tab heading="Clustering Analysis">
+                <div class="container-fluid" style="margin-top:10px">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="container-fluid" ng-show="clusteringResult1.data">
+                                <div class="row">
+                                    <div class="pull-right">
+                                        X Axis: <select ng-options="c as attributeNames[c] for c in cols" ng-model="clusteringResult1.xAxis" ng-change="onXAxisClusteringResultChanged(clusteringResult1);" />
+                                        Y Axis: <select ng-options="c as attributeNames[c] for c in cols" ng-model="clusteringResult1.yAxis" ng-change="onYAxisClusteringResultChanged(clusteringResult1);" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <nvd3 options="clusteringResult1.options" data="clusteringResult1.data"></nvd3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="container-fluid" ng-show="clusteringResult2.data">
+                                <div class="row">
+                                    <div class="pull-right">
+                                        X Axis: <select ng-options="c as attributeNames[c] for c in cols" ng-model="clusteringResult2.xAxis" ng-change="onXAxisClusteringResultChanged(clusteringResult2);" />
+                                        Y Axis: <select ng-options="c as attributeNames[c] for c in cols" ng-model="clusteringResult2.yAxis" ng-change="onYAxisClusteringResultChanged(clusteringResult2);" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <nvd3 options="clusteringResult2.options" data="clusteringResult2.data"></nvd3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </tab>
+
+            <tab heading="Sequential Analysis" ng-show="sequenceResult.data1">
+                <div class="container-fluid" style="margin-top:10px">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="pull-right">
+                                X Axis: <select ng-options="c as attributeNames[c] for c in cols" ng-model="sequenceResult.col" ng-change="onSequenceResultAxisChanged(sequenceResult);" />
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <nvd3 options="sequenceResult.options1" data="sequenceResult.data1"></nvd3>
+                        </div>
+                        <div class="col-md-6" ng-show="sequenceResult.data2">
+                            <nvd3 options="sequenceResult.options2" data="sequenceResult.data2"></nvd3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <nvd3 options="sequenceResult.options3" data="sequenceResult.data3"></nvd3>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </tab>
+        </tabset>
+
+    </div>
+</div>
+

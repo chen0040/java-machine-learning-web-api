@@ -1,0 +1,17 @@
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\op-core\src\main\java\com\simukit\meme\op\commons\models\misc\LineSearchResult.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\op-core\src\main\java\com\simukit\meme\op\commons\models\misc\TerminationEvaluationMethod.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\op-core\src\main\java\com\simukit\meme\op\commons\services\MatrixOp.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\op-core\src\main\java\com\simukit\meme\op\commons\events\NumericSolutionIterateListener.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\op-core\src\main\java\com\simukit\meme\op\commons\services\SearchListenerService.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\op-core\src\main\java\com\simukit\meme\op\commons\benchmarks\RosenbrockSaddleCostFunction.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\op-core\src\main\java\com\simukit\meme\op\commons\benchmarks\SphereCostFunction.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\op-core\src\main\java\com\simukit\meme\op\commons\models\costs\GradientEvaluationMethod.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\op-core\src\main\java\com\simukit\meme\op\commons\services\LineSearch.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\op-core\src\main\java\com\simukit\meme\op\commons\models\costs\CostEvaluationMethod.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\op-core\src\main\java\com\simukit\meme\op\commons\models\costs\CostFunction.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\op-core\src\main\java\com\simukit\meme\op\commons\events\NumericSolutionUpdatedListener.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\op-core\src\main\java\com\simukit\meme\op\commons\OPModule.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\op-core\src\main\java\com\simukit\meme\op\commons\models\solutions\NumericSolutionUpdateResult.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\op-core\src\main\java\com\simukit\meme\op\commons\models\solutions\NumericSolution.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\op-core\src\main\java\com\simukit\meme\op\commons\models\solutions\NumericSolutionFactory.java
+C:\Users\chen0\git\simukit.j\simukit\simukit-components\op-core\src\main\java\com\simukit\meme\op\commons\services\GradientEstimation.java

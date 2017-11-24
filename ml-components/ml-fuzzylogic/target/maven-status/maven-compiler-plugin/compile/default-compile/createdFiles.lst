@@ -1,0 +1,9 @@
+com\simukit\meme\ml\Rule.class
+com\simukit\meme\ml\Clause.class
+com\simukit\meme\ml\FuzzySet.class
+com\simukit\meme\ml\memberships\FuzzyGrade.class
+com\simukit\meme\ml\memberships\Membership.class
+com\simukit\meme\ml\RuleInferenceEngine.class
+com\simukit\meme\ml\memberships\FuzzyReverseGrade.class
+com\simukit\meme\ml\memberships\FuzzyTriangle.class
+com\simukit\meme\ml\memberships\FuzzyTrapezoid.class

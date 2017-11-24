@@ -1,0 +1,3 @@
+com\simukit\meme\ml\trees\test\anomaly\unsupervised\IsolationForestTest.class
+com\simukit\meme\ml\trees\test\utils\FileUtils.class
+com\simukit\meme\ml\trees\test\classifiers\TestID3.class

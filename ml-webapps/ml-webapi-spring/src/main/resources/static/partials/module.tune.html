@@ -1,0 +1,40 @@
+<ol class="breadcrumb">
+    <li><a ng-href="#/modules/{{module.id}}" target="_blank">{{module.title}}</a></li>
+    <li class="active">Tune Model</li>
+</ol>
+
+<div class="panel panel-info" ng-show="module">
+    <div class="panel-heading">Tune <span class="badge">{{module.title}}</span></div>
+    <div class="panel-body">
+        <div class="container-fluid">
+            <div class="row">
+                <table st-table="attributes" st-select-row="row" class="table table-striped" >
+                    <thead>
+                    <th>Name</th>
+                    <th>Value</th>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat = "attr in attributes">
+                        <td>
+                            {{attr.name}}
+                        </td>
+                        <td>
+                            <input type="text" ng-model="attr.value" />
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="pull-right">
+                        <button class="btn btn-xs btn-success" ng-click="onOK()">OK</button>
+                        <button class="btn btn-xs btn-danger" ng-click="onCancel()">Cancel</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,241 @@
+<ol class="breadcrumb">
+    <li><a href="#/projects">Projects</a></li>
+    <li class="active">Project: <span class="badge">{{project.title}}</span></li>
+</ol>
+
+<div class="panel panel-primary" style="margin-top:10px;margin-bottom:10px;">
+    <div class="panel-heading">
+        <span class="badge">{{project.title}}</span>
+        <span class="pull-right">{{project.created}}</span>
+    </div>
+    <div class="panel-body">
+
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            Code Name:
+        </div>
+        <div class="col-md-10">
+            <span ng-show="!isTitleEditing()" ng-click="editTitle()">{{project.title}}</span>
+            <span ng-show="isTitleEditing()">
+            <input type='text' ng-model="project.title"/>
+                <button class="btn-xs btn-success" ng-click="commitEditingTitle()">Commit</button>
+                <button class="btn-xs btn-warning" ng-click="cancelEditingTitle()">Cancel</button>
+                </span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2">
+            Project ID:
+        </div>
+        <div class="col-md-10">
+            <span>{{project.id}}</span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2">
+            Description:
+        </div>
+        <div class="col-md-10">
+            <span ng-show="!isDescriptionEditing()" ng-click="editDescription()">{{project.description}}</span>
+            <span ng-show="isDescriptionEditing()">
+                <input type='text' ng-model="project.description"/>
+                <button class="btn-xs btn-success" ng-click="commitEditingDescription()">Commit</button>
+                <button class="btn-xs btn-warning" ng-click="cancelEditingDescription()">Cancel</button>
+            </span>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+
+<div class="container-fluid">
+
+    <div class="row">
+
+        <tabset>
+            <tab>
+                <tab-heading>
+                    Algorithm Warehouse <span class="badge">{{modules.length}}</span>
+                </tab-heading>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="thumbnail" style="margin-top:10px; margin-bottom:10px;">
+                            <button class="btn-xs btn-primary" ng-click="createModule();">Create Algorithm</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-12" ng-repeat="module in modules">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <span><span class="badge">{{beautifyString(module.description)}}</span> : {{module.title}}</span>
+                                <span class="pull-right">{{module.created}}</span>
+                            </div>
+                            <div class="panel-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-2">Title</div>
+                                        <div class="col-md-10">
+                                             <span ng-show="!isModuleTitleEditing(module)" ng-click="editModuleTitle(module);">
+                                                {{module.title}}
+                                            </span>
+                                            <span ng-show="isModuleTitleEditing(module)">
+                                                <input class="form-control input-xs" type="text" ng-model="module.title"/>
+                                                <button class="btn-xs btn-success" ng-click="commitEditingModuleTitle(module);">Commit</button>
+                                                <button class="btn-xs btn-warning" ng-click="cancelEditingModuleTitle(module);">Cancel</button>
+                                            </span>
+
+                                             <span class="btn-sm btn-success pull-right" ng-show="module.modelSource.id">
+                                                <span class="glyphicon glyphicon-ok"></span> Is Trained
+                                            </span>
+                                            <span class="btn-sm btn-danger pull-right" ng-hide="module.modelSource.id">
+                                                <span class="glyphicon glyphicon-alert"></span> Need Training
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-2">Template: </div>
+                                        <div class="col-md-10">{{module.prototype}}</div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-2">Produce: </div>
+                                        <div class="col-md-10">{{beautifyString(module.outputType)}}</div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-2">Data Source:</div>
+                                        <div class="col-md-10">
+                                            <a ng-href="#/batches/{{module.modelSource.id}}">{{batchnames[module.modelSource.id]}}</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-2">ID:</div>
+                                        <div class="col-md-10">
+                                            {{module.id}}
+                                            <span class="pull-right">
+                                                <button class="btn-xs btn-danger" ng-click="deleteModule(module);">-</button>
+                                                <button class="btn-xs btn-warning"
+                                                        ng-click="editModuleTitle(module);">Edit
+                                                </button>
+                                                <button ng-click="viewModuleDetail(module);" class="btn btn-xs btn-info">View
+                                                </button>
+                                                <button ng-click="trainModule(module);" class="btn-xs btn-success">Train</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </tab>
+
+            <tab>
+                <tab-heading>
+                    Data Warehouse <span class="badge">{{batches.length}}</span>
+                </tab-heading>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="thumbnail" style="margin-top:10px; margin-bottom:10px;">
+                            <button class="btn-xs btn-success" ng-click="createBatch();">Create Data Source</button>
+                            <button class="btn-xs btn-primary" ng-click="createBatchES();">Grab from Elastic Search</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-12" ng-repeat="batch in batches">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <span>Data Source: {{batch.title}}</span>
+                                <span class="pull-right">{{batch.created}}</span>
+                            </div>
+                            <div class="panel-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-2">Code Name</div>
+                                        <div class="col-md-10">
+                                            <span ng-show="!isBatchTitleEditing(batch)" ng-click="editBatchTitle(batch);">
+                                                {{batch.title}}
+                                            </span>
+                                            <span ng-show="isBatchTitleEditing(batch)">
+                                                <input class="form-control input-xs" type="text" ng-model="batch.title"/>
+                                                <button class="btn-xs btn-success" ng-click="commitEditingBatchTitle(batch);">Commit</button>
+                                                <button class="btn-xs btn-warning" ng-click="cancelEditingBatchTitle(batch);">Cancel</button>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-2">Data Format:</div>
+                                        <div class="col-md-10">{{batch.format}}</div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-2">Label Predictor:</div>
+                                        <div class="col-md-10"><a ng-href="#/modules/{{batch.labelPredictorId}}">{{modulenames[batch.labelPredictorId]}}</a></div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-2">Description:</div>
+                                        <div class="col-md-10">
+                                            <span ng-click="editBatchDescription(batch);"
+                                                  ng-show="!isBatchDescriptionEditing(batch)">{{batch.description}}</span>
+                                            <span ng-show="isBatchDescriptionEditing(batch)">
+                                                <input class="form-control input-xs" type="text" ng-model="batch.description"/>
+                                                <button class="btn-xs btn-success" ng-click="commitEditingBatchDescription(batch);">
+                                                    Commit
+                                                </button>
+                                                <button class="btn-xs btn-warning" ng-click="cancelEditingBatchDescription(batch);">
+                                                    Cancel
+                                                </button>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-2">ID:</div>
+                                        <div class="col-md-10">
+                                            {{batch.id}}
+                                            <span class="pull-right">
+                                                <button class="btn-xs btn-danger" ng-click="deleteBatch(batch);">-</button>
+                                                <button class="btn-xs btn-warning"
+                                                        ng-click="editBatchTitle(batch);editBatchDescription(batch);">Edit
+                                                </button>
+                                                <button ng-click="viewBatchDetail(batch);" class="btn btn-xs btn-info">View
+                                                </button>
+                                                <button class="btn-xs btn-primary" ng-click="predictLabels(batch);">Predict Labels</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </tab>
+        </tabset>
+
+    </div>
+
+
+</div>

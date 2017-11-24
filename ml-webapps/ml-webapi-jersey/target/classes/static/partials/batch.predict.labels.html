@@ -1,0 +1,30 @@
+<ol class="breadcrumb">
+    <li><a href="#/projects">Projects</a></li>
+    <li><a ng-href="#/projects/{{project.id}}">{{project.title}}</a></li>
+    <li class="active">Predict Labels</li>
+</ol>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">Predict Labels for {{batch.title}} in <a ng-href="#/projects/{{projectId}}">{{project.title}}</a></div>
+    <div class="panel-body">
+        <div class="row" style="margin-bottom:2px" ng-show="modules">
+            <div class="col-md-2">
+                Label Predictor:
+            </div>
+            <div class="col-md-10">
+                <select ng-options="pc as pc.title for pc in modules" ng-model="module" />
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom:5px">
+            <div class="col-md-12">
+                <button class="btn-xs btn-primary pull-left" ng-click="tuneModule()">Tune Algorithm</button>
+                <button class="btn-xs btn-primary pull-left" ng-click="trainModule()">Re-train Algorithm</button>
+
+                <button class="btn-xs btn-warning pull-right" ng-click="cancel();">Cancel</button>
+                <button ng-show="isActive(module)" class="btn-xs btn-success pull-right" ng-click="predictLabels();" style="margin-right:10px;">OK</button>
+            </div>
+        </div>
+
+    </div>
+</div>

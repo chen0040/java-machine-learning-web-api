@@ -1,0 +1,5 @@
+com\simukit\meme\ml\trees\id3\ID3.class
+com\simukit\meme\ml\trees\iforest\IFTreeNode.class
+com\simukit\meme\ml\trees\id3\ID3TreeNode.class
+com\simukit\meme\ml\trees\id3\ID3$1.class
+com\simukit\meme\ml\trees\iforest\IsolationForest.class

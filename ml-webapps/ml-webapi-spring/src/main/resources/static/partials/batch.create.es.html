@@ -1,0 +1,48 @@
+<div class="panel panel-success">
+    <div class="panel-heading">Create Data Source from Elastic Search engine</div>
+    <div class="panel-body">
+
+        <div class="row" style="margin-bottom:2px">
+            <div class="col-md-3">
+                Elastic Search URL:
+            </div>
+            <div class="col-md-9">
+                <input type="text" ng-model="f.url" />
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom:2px">
+            <div class="col-md-3">
+                No. of records to fetch:
+            </div>
+            <div class="col-md-9">
+                <input type="text" ng-model="f.size" />
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom:2px">
+            <div class="col-md-3">
+                Time Window Size (milliseconds):
+            </div>
+            <div class="col-md-9">
+                <input type="text" ng-model="f.timeWindowSize" />
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom:2px">
+            <div class="col-md-3">
+                Keywords (separated by semi-colons):
+            </div>
+            <div class="col-md-9">
+                <input type="text" ng-model="f.keywords" />
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom:5px">
+            <div class="col-md-12">
+                <button class="btn-xs btn-warning pull-right" ng-click="cancel();">Cancel</button>
+                <button class="btn-xs btn-success pull-right" ng-click="ok();" style="margin-right:10px;">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
