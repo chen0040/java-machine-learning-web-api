@@ -1,8 +1,8 @@
-C:\Users\chen0\git\simukit.j\simukit\simukit-webapps\ml-webapi-jersey\src\main\java\com\simukit\meme\ml\web\spring\Loader.java
-C:\Users\chen0\git\simukit.j\simukit\simukit-webapps\ml-webapi-jersey\src\main\java\com\simukit\meme\ml\web\resources\RandomNameGeneratorResource.java
-C:\Users\chen0\git\simukit.j\simukit\simukit-webapps\ml-webapi-jersey\src\main\java\com\simukit\meme\ml\web\jersey\CORSResponseFilter.java
-C:\Users\chen0\git\simukit.j\simukit\simukit-webapps\ml-webapi-jersey\src\main\java\com\simukit\meme\ml\web\resources\AlgorithmResource.java
-C:\Users\chen0\git\simukit.j\simukit\simukit-webapps\ml-webapi-jersey\src\main\java\com\simukit\meme\ml\web\resources\DataResource.java
-C:\Users\chen0\git\simukit.j\simukit\simukit-webapps\ml-webapi-jersey\src\main\java\com\simukit\meme\ml\web\jersey\MLResourceConfig.java
-C:\Users\chen0\git\simukit.j\simukit\simukit-webapps\ml-webapi-jersey\src\main\java\com\simukit\meme\ml\web\resources\ProjectResource.java
-C:\Users\chen0\git\simukit.j\simukit\simukit-webapps\ml-webapi-jersey\src\main\java\com\simukit\meme\ml\web\spring\WebApplication.java
+C:\Users\chen0\git\java-machine-learning-web-api\ml-webapps\ml-webapi-jersey\src\main\java\com\github\chen0040\ml\web\resources\RandomNameGeneratorResource.java
+C:\Users\chen0\git\java-machine-learning-web-api\ml-webapps\ml-webapi-jersey\src\main\java\com\github\chen0040\ml\web\spring\Loader.java
+C:\Users\chen0\git\java-machine-learning-web-api\ml-webapps\ml-webapi-jersey\src\main\java\com\github\chen0040\ml\web\jersey\MLResourceConfig.java
+C:\Users\chen0\git\java-machine-learning-web-api\ml-webapps\ml-webapi-jersey\src\main\java\com\github\chen0040\ml\web\resources\DataResource.java
+C:\Users\chen0\git\java-machine-learning-web-api\ml-webapps\ml-webapi-jersey\src\main\java\com\github\chen0040\ml\web\resources\AlgorithmResource.java
+C:\Users\chen0\git\java-machine-learning-web-api\ml-webapps\ml-webapi-jersey\src\main\java\com\github\chen0040\ml\web\spring\WebApplication.java
+C:\Users\chen0\git\java-machine-learning-web-api\ml-webapps\ml-webapi-jersey\src\main\java\com\github\chen0040\ml\web\jersey\CORSResponseFilter.java
+C:\Users\chen0\git\java-machine-learning-web-api\ml-webapps\ml-webapi-jersey\src\main\java\com\github\chen0040\ml\web\resources\ProjectResource.java

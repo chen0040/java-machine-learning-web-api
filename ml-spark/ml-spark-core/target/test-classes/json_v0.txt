@@ -1406,7 +1406,7 @@
       "_type" : "syslog",
       "_id" : "77b5ed34-1215-44e1-b410-70ebb2e89c78",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-15] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.ConfigRestController\u001B[0;39m - Requesting for Central Config from [172.16.1.4]. Context Path invoked was [\/umom].","Size":395,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337173000}
+      "_source":{"Message":"[http-bio-8080-exec-15] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.ConfigRestController\u001B[0;39m - Requesting for Central Config from [172.16.1.4]. Context Path invoked was [\/umom].","Size":395,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337173000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -1964,7 +1964,7 @@
       "_type" : "syslog",
       "_id" : "aec3fb9b-e9e2-42d9-8550-0a7296502d4b",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
+      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -1976,19 +1976,19 @@
       "_type" : "syslog",
       "_id" : "46de2421-f9f3-47e7-bd62-bb39aaf1899d",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":345,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
+      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":345,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "4ef6d603-ba49-4a34-800c-ad4fae651cf2",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT u FROM UserPreferences u WHERE u.preferenceKey.companyId = :companyId AND u.preferenceKey.name = :name. Params: {name=report1, companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":508,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
+      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT u FROM UserPreferences u WHERE u.preferenceKey.companyId = :companyId AND u.preferenceKey.name = :name. Params: {name=report1, companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":508,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "14a5cddf-fcd4-45a6-a324-0ff89eb1efd7",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.s.UserSettingsController\u001B[0;39m - URL \/getUserPreference invoked.","Size":346,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
+      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.s.UserSettingsController\u001B[0;39m - URL \/getUserPreference invoked.","Size":346,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -2000,25 +2000,25 @@
       "_type" : "syslog",
       "_id" : "e5bdcd0d-c40f-4610-a7b1-f0d7ba5f43a7",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-19] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":345,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
+      "_source":{"Message":"[http-bio-8080-exec-19] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":345,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "e9bd2758-af38-4f1b-873c-331bd69c829d",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.d.e.c.Heatmap\u001B[0;39m - Getting heatmap data from Elasticsearch took 413 ms","Size":352,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
+      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.d.e.c.Heatmap\u001B[0;39m - Getting heatmap data from Elasticsearch took 413 ms","Size":352,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "f3d35744-68b8-46db-9b16-38bc8a3ec89d",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-19] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.d.e.c.Heatmap\u001B[0;39m - Getting heatmap data from Elasticsearch took 159 ms","Size":352,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
+      "_source":{"Message":"[http-bio-8080-exec-19] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.d.e.c.Heatmap\u001B[0;39m - Getting heatmap data from Elasticsearch took 159 ms","Size":352,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "8c68b700-d9e3-40ae-915e-31a8aafebe0e",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-19] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
+      "_source":{"Message":"[http-bio-8080-exec-19] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -2984,7 +2984,7 @@
       "_type" : "syslog",
       "_id" : "5b756373-7e0f-40ea-954f-5e37d4fee624",
       "_score" : 1.0,
-      "_source":{"Message":"named[4843]: zone simukit.com\/IN: sending notifies (serial 2015030404)","Size":251,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"172.16.0.10","Severity":"INFO","Host":"server3","PID":0,"Process":"named[4843]","Facility":"DAEMONS","Date":1441267809000}
+      "_source":{"Message":"named[4843]: zone github.com\/IN: sending notifies (serial 2015030404)","Size":251,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"172.16.0.10","Severity":"INFO","Host":"server3","PID":0,"Process":"named[4843]","Facility":"DAEMONS","Date":1441267809000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -4988,199 +4988,199 @@
       "_type" : "syslog",
       "_id" : "28d23ae9-69f2-45f6-ae08-cf913941e07f",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 1","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
+      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 1","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "b817a3b7-25f0-4b3b-8fcc-e78adc1aa3a9",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-19] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":345,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
+      "_source":{"Message":"[http-bio-8080-exec-19] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":345,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "7f68b6ea-dcd1-4c5e-a3e6-65122428ff84",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-19] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
+      "_source":{"Message":"[http-bio-8080-exec-19] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "3f89164d-3eed-4587-b534-edc9bc272819",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-2] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":376,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
+      "_source":{"Message":"[http-bio-8080-exec-2] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":376,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "3a1a8e56-52c3-4b93-acdd-d7f4b6d171c0",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-19] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":345,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
+      "_source":{"Message":"[http-bio-8080-exec-19] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":345,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "c6802a2f-f436-49f4-a4ce-0ca19bb7d601",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT u FROM UserPreferences u WHERE u.preferenceKey.companyId = :companyId AND u.preferenceKey.name = :name. Params: {name=report1, companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":508,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
+      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT u FROM UserPreferences u WHERE u.preferenceKey.companyId = :companyId AND u.preferenceKey.name = :name. Params: {name=report1, companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":508,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "7b34324b-99b4-4111-92be-3ef48d741dda",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-2] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.u.UserManagerController\u001B[0;39m - User name:simukit","Size":330,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336934000}
+      "_source":{"Message":"[http-bio-8080-exec-2] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.u.UserManagerController\u001B[0;39m - User name:chen0040","Size":330,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336934000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "c747c005-6e5b-4de1-a081-d2eb1c1a9258",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-2] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT u FROM User u WHERE u.userKey.userId = :username. Params: {username=simukit}","Size":410,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
+      "_source":{"Message":"[http-bio-8080-exec-2] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT u FROM User u WHERE u.userKey.userId = :username. Params: {username=chen0040}","Size":410,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "a4c8f964-c8e3-417b-959e-39cfd12e181d",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
+      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "104a50e5-8047-40c5-9177-1e6df1421b58",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
+      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "b6d75958-047e-41a3-aa80-94323a74bbfd",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 1","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
+      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 1","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "85ee7f9c-a06b-4dea-9f50-83b3c19b4aaf",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
+      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "4f7215a7-2bd9-4a02-851a-0b91bd179a51",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-19] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
+      "_source":{"Message":"[http-bio-8080-exec-19] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336938000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "9d71ceab-684c-4d21-811b-39bf42ee3e88",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-8] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":376,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336950000}
+      "_source":{"Message":"[http-bio-8080-exec-8] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":376,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336950000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "96e98565-62e4-4816-8bb4-a864d64f9910",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":344,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
+      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":344,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "1fcbccc4-edd7-4ba2-8d9b-23ef0cb2176b",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
+      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "c6d94ac7-9705-40c1-85eb-9a532ceee685",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":345,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
+      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":345,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "27aa9ce5-10a9-490a-8fc7-de71e67fe716",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":344,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
+      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":344,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "ed1c0cea-b7b1-4539-8f86-39a13ae63b9a",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
+      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336935000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "8cc15d8d-222f-4334-8192-d72704810a4d",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":376,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
+      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":376,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "087c9507-ce9f-4833-a10e-6465a3ebdd42",
       "_score" : 1.0,
-      "_source":{"KeyValue":[{"value":1.441172654E12,"key":"top_date"},{"value":1.0,"key":"page_counter"}],"Message":"[http-bio-8080-exec-8] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.b.s.SyslogBusinessImpl\u001B[0;39m - Params returned to Webpage: {top_date=1441172654000, page_counter=1}","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336950000}
+      "_source":{"KeyValue":[{"value":1.441172654E12,"key":"top_date"},{"value":1.0,"key":"page_counter"}],"Message":"[http-bio-8080-exec-8] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.b.s.SyslogBusinessImpl\u001B[0;39m - Params returned to Webpage: {top_date=1441172654000, page_counter=1}","Size":377,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336950000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "173c4ca0-a62e-445e-b5cf-e6fd758f3c8a",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-19] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.u.UserManagerController\u001B[0;39m - URL [loginSuccess] invoked. Directing to Index page now...","Size":371,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
+      "_source":{"Message":"[http-bio-8080-exec-19] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.u.UserManagerController\u001B[0;39m - URL [loginSuccess] invoked. Directing to Index page now...","Size":371,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "d22cbe51-6a49-49eb-bd94-293878a9950e",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.d.e.c.Heatmap\u001B[0;39m - Getting heatmap data from Elasticsearch took 177 ms","Size":351,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
+      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.d.e.c.Heatmap\u001B[0;39m - Getting heatmap data from Elasticsearch took 177 ms","Size":351,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "d0f0fc70-03de-406e-9a35-30b311ca5361",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":376,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
+      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":376,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "1608cb2f-9295-4d32-af99-144b60964dc3",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":344,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
+      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":344,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "3b30db0b-0cdb-491c-8c83-08b566118445",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":345,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
+      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":345,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "15aacd94-ed7c-4902-863c-6d8a643727fc",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":344,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
+      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":344,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "bd8751af-4020-4d66-97e6-8cfa46623f82",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":345,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
+      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":345,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "50c75b29-128e-47c5-81f0-2d96f35529d2",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-14] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337193000}
+      "_source":{"Message":"[http-bio-8080-exec-14] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337193000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "977494cd-0d99-42bf-9aab-9f264a4ed020",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":376,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
+      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - Request method=POST url=http:\/\/172.16.2.111:9200\/syslog\/syslog\/_search","Size":376,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "acbf6248-1862-4415-935d-b5eeae1caede",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT r FROM DroolsRule r WHERE r.ruleKey.companyId = :companyId AND r.ruleKey.type = :type. Params: {type=syslog, companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":490,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337189000}
+      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT r FROM DroolsRule r WHERE r.ruleKey.companyId = :companyId AND r.ruleKey.type = :type. Params: {type=syslog, companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":490,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337189000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "f0959ee1-e0dd-44f4-b7e7-345019793f90",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-14] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT sa FROM SyslogAlarmConfig sa WHERE sa.alarmKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":461,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337193000}
+      "_source":{"Message":"[http-bio-8080-exec-14] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT sa FROM SyslogAlarmConfig sa WHERE sa.alarmKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":461,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337193000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "84152c01-74a6-4695-b535-9289ba1cb5f1",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":344,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
+      "_source":{"Message":"[http-bio-8080-exec-7] \u001B[39mDEBUG\u001B[0;39m \u001B[36mi.s.c.h.JestHttpClient\u001B[0;39m - POST method created based on client request","Size":344,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441336947000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5192,7 +5192,7 @@
       "_type" : "syslog",
       "_id" : "c766eb9c-28e8-4e8a-ae83-935e9b2d4dab",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.ConfigRestController\u001B[0;39m - Requesting for Central Config from [172.16.2.112]. Context Path invoked was [\/umom].","Size":397,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337412000}
+      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.ConfigRestController\u001B[0;39m - Requesting for Central Config from [172.16.2.112]. Context Path invoked was [\/umom].","Size":397,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337412000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5204,7 +5204,7 @@
       "_type" : "syslog",
       "_id" : "ec709650-38ec-45c4-94fd-1ba88af7bb25",
       "_score" : 1.0,
-      "_source":{"Message":"[pool-10-thread-1] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.s.j.JVMStatisticsJob\u001B[0;39m - Scheduled Job triggered: [JVM Statistics].\r\n##### Heap utilization statistics [MB] #####\r\nUsed Memory:900\r\nFree Memory:6650\r\nTotal Memory:7551\r\nMax Memory:7551","Size":472,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337400000}
+      "_source":{"Message":"[pool-10-thread-1] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.s.j.JVMStatisticsJob\u001B[0;39m - Scheduled Job triggered: [JVM Statistics].\r\n##### Heap utilization statistics [MB] #####\r\nUsed Memory:900\r\nFree Memory:6650\r\nTotal Memory:7551\r\nMax Memory:7551","Size":472,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337400000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5240,13 +5240,13 @@
       "_type" : "syslog",
       "_id" : "a4f07f83-19ec-49c9-b497-48c51d985ce4",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337536000}
+      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337536000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "36053b15-09c5-49e7-ba1e-f7d9f0e261f3",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-15] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337892000}
+      "_source":{"Message":"[http-bio-8080-exec-15] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337892000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5258,43 +5258,43 @@
       "_type" : "syslog",
       "_id" : "4e571add-f1d3-4bdc-bb58-be24831c7ae6",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337712000}
+      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337712000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "85aa717c-7806-4f77-bdd5-26c336220d13",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-14] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337712000}
+      "_source":{"Message":"[http-bio-8080-exec-14] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337712000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "45ada146-3e9d-4558-82c2-b1fae7e8752d",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337712000}
+      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337712000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "a082d8b7-94ae-46af-85ea-31f3b0a110e1",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337772000}
+      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337772000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "f41142bb-b459-4761-892d-b8ee3948a27c",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-13] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337952000}
+      "_source":{"Message":"[http-bio-8080-exec-13] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337952000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "804d649c-2560-4082-a4e7-73e3c39cfb2c",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-9] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":347,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337652000}
+      "_source":{"Message":"[http-bio-8080-exec-9] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":347,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337652000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "6d1876b8-1893-4f50-920f-1b5486812461",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.u.UserManagerController\u001B[0;39m - Into logout page","Size":329,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337974000}
+      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.u.UserManagerController\u001B[0;39m - Into logout page","Size":329,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441337974000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5336,7 +5336,7 @@
       "_type" : "syslog",
       "_id" : "193b2933-7c06-468d-ba47-72bd547dbce0",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338012000}
+      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338012000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5366,25 +5366,25 @@
       "_type" : "syslog",
       "_id" : "20a6eb71-98ed-4c39-96a9-464e12a8e8f4",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllRules of type syslog","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338012000}
+      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllRules of type syslog","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338012000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "76ecfa44-d104-4394-9829-90c421fe248a",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338132000}
+      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338132000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "3114ec49-605c-4640-8795-d0c67b8f36e9",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338132000}
+      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338132000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "90ae07cb-40dc-44c9-93d0-888aa869dddf",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-9] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":383,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338252000}
+      "_source":{"Message":"[http-bio-8080-exec-9] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":383,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338252000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5396,7 +5396,7 @@
       "_type" : "syslog",
       "_id" : "a598332e-a3ae-4d9d-8279-e9c57af85145",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-15] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338072000}
+      "_source":{"Message":"[http-bio-8080-exec-15] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338072000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5408,13 +5408,13 @@
       "_type" : "syslog",
       "_id" : "c5e302ff-26cd-4913-8dca-1e913f62574f",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-13] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338192000}
+      "_source":{"Message":"[http-bio-8080-exec-13] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338192000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "d2bddf63-ca91-4724-8e73-01baf34c1847",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-14] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338312000}
+      "_source":{"Message":"[http-bio-8080-exec-14] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338312000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5438,7 +5438,7 @@
       "_type" : "syslog",
       "_id" : "a341ce4f-7fcf-441e-8adc-4bc2f25c6792",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-13] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT r FROM DroolsRule r WHERE r.ruleKey.companyId = :companyId AND r.ruleKey.type = :type. Params: {type=syslog, companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":490,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338612000}
+      "_source":{"Message":"[http-bio-8080-exec-13] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT r FROM DroolsRule r WHERE r.ruleKey.companyId = :companyId AND r.ruleKey.type = :type. Params: {type=syslog, companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":490,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338612000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5450,61 +5450,61 @@
       "_type" : "syslog",
       "_id" : "dda109b7-3984-4cce-83d5-fadb3a120d4b",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-13] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllRules of type syslog","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338612000}
+      "_source":{"Message":"[http-bio-8080-exec-13] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllRules of type syslog","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338612000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "fd0fabec-bc0a-4d3f-b826-14ef379b6c8c",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338612000}
+      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338612000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "a09c0cf1-df93-4b58-a856-1800cd3df33f",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338732000}
+      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338732000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "d7f6f527-4b5d-41d1-ac63-32de54aa0872",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338732000}
+      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338732000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "ec76e8bb-1919-4c6c-8bad-4ea1c068ed13",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-6] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":383,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338792000}
+      "_source":{"Message":"[http-bio-8080-exec-6] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":383,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338792000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "5ce15a13-c4ab-46f6-8230-45208a7e885e",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-6] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":347,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338792000}
+      "_source":{"Message":"[http-bio-8080-exec-6] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":347,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338792000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "e88efc71-6e64-400b-869c-5361a0c933b2",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-15] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338552000}
+      "_source":{"Message":"[http-bio-8080-exec-15] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338552000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "e52afb0c-2f56-490f-b525-00c909ec18a1",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-14] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338672000}
+      "_source":{"Message":"[http-bio-8080-exec-14] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338672000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "a54190f8-b3fa-47da-ae1a-67276f1c5942",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-8] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":383,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338492000}
+      "_source":{"Message":"[http-bio-8080-exec-8] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":383,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338492000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "0b700bf9-d9b3-4a57-8930-53f3675b7618",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-14] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338672000}
+      "_source":{"Message":"[http-bio-8080-exec-14] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338672000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5696,7 +5696,7 @@
       "_type" : "syslog",
       "_id" : "862aeebd-8f48-47c7-a352-77a57c141fba",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338852000}
+      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338852000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5732,25 +5732,25 @@
       "_type" : "syslog",
       "_id" : "80b0a4ae-fe3e-4a9e-8756-616ef5e4a7ac",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338912000}
+      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338912000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "a419d354-9d75-4bf4-9d86-b9dce21b572d",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338912000}
+      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338912000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "31879dd5-3242-44a1-8861-0b52ef1d3c23",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338972000}
+      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441338972000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "18639bec-7255-4995-8ff1-5d19d3bbc200",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-13] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339032000}
+      "_source":{"Message":"[http-bio-8080-exec-13] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339032000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5774,19 +5774,19 @@
       "_type" : "syslog",
       "_id" : "c19e38b9-3d5d-49fb-b078-594e18cbe731",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339212000}
+      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339212000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "fd4290d7-137c-44c5-8222-cff32880fc18",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-6] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllRules of type syslog","Size":347,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339212000}
+      "_source":{"Message":"[http-bio-8080-exec-6] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllRules of type syslog","Size":347,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339212000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "c26a93f4-b49f-4b52-af59-63c4f69d6699",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339212000}
+      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339212000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5798,7 +5798,7 @@
       "_type" : "syslog",
       "_id" : "0595089f-b5e5-4746-b77c-2a04d277775f",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339272000}
+      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339272000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5810,55 +5810,55 @@
       "_type" : "syslog",
       "_id" : "2c5328d3-d788-4a4d-bc10-59fda3af371b",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339692000}
+      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339692000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "72aeec94-8c99-4f82-84fe-9f009ee9d8c4",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339692000}
+      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339692000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "1acb15b7-52cb-4a95-b876-b3ffc8986fed",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-9] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":347,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339752000}
+      "_source":{"Message":"[http-bio-8080-exec-9] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":347,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339752000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "99788e76-de1a-4760-a3ad-9b49fb1127ef",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-9] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":383,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339752000}
+      "_source":{"Message":"[http-bio-8080-exec-9] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":383,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339752000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "657590f8-da3a-4390-97c4-c1822e537a9e",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-6] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":441,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339632000}
+      "_source":{"Message":"[http-bio-8080-exec-6] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":441,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339632000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "e6b6b152-ca39-472b-bdea-1ca0cc954f5c",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339452000}
+      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":384,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339452000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "6f13716f-b75a-4492-a5c7-e556663856f7",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-9] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":383,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339092000}
+      "_source":{"Message":"[http-bio-8080-exec-9] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":383,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339092000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "e4c423e8-0e43-4829-a909-91950c42bda8",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-6] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":383,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339632000}
+      "_source":{"Message":"[http-bio-8080-exec-6] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":383,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339632000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "ddff95c5-0307-4c39-8989-1efe4063205f",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-9] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllRules of type syslog","Size":347,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339512000}
+      "_source":{"Message":"[http-bio-8080-exec-9] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllRules of type syslog","Size":347,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339512000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5870,31 +5870,31 @@
       "_type" : "syslog",
       "_id" : "78a33d47-417c-4720-927c-0262d56fa62c",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-15] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339812000}
+      "_source":{"Message":"[http-bio-8080-exec-15] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339812000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "c683b7f6-9b7f-4bab-89b6-8d967ff9420b",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-13] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339872000}
+      "_source":{"Message":"[http-bio-8080-exec-13] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339872000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "31021b37-955f-4ba8-b063-e6f146b68606",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339932000}
+      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339932000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "1591e225-9b17-4f84-8aa7-fd99dd73d489",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-14] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339992000}
+      "_source":{"Message":"[http-bio-8080-exec-14] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339992000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "38a2ba3e-a26c-4158-af24-865e31f28463",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340052000}
+      "_source":{"Message":"[http-bio-8080-exec-17] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340052000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5930,7 +5930,7 @@
       "_type" : "syslog",
       "_id" : "da4ba8fd-217c-4f6b-a359-aece1427ea6a",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339932000}
+      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441339932000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
@@ -5942,73 +5942,73 @@
       "_type" : "syslog",
       "_id" : "257bf220-ed12-4ab3-b343-d5b6c43ab29b",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340112000}
+      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340112000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "d11d0bc9-9950-41ae-9382-5d8a065e9030",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllRules of type syslog","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340112000}
+      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllRules of type syslog","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340112000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "64f593c9-c6bb-4a75-9624-f9e11f3285b8",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-15] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340232000}
+      "_source":{"Message":"[http-bio-8080-exec-15] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340232000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "46a2f097-c1ea-4607-aaf7-2a7a050b4c79",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-8] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":441,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340172000}
+      "_source":{"Message":"[http-bio-8080-exec-8] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":441,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340172000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "13778218-1ba8-44de-97e8-b53dca31c5f6",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-6] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":441,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340292000}
+      "_source":{"Message":"[http-bio-8080-exec-6] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":441,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340292000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "d3e6a91a-39fb-4aba-ab37-8e40d7556b5a",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-8] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":383,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340172000}
+      "_source":{"Message":"[http-bio-8080-exec-8] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.r.CassandraRestController\u001B[0;39m - REST \/getAllTags invoked for [b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e].","Size":383,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340172000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "57306cec-54a0-49f1-88c3-25427cfdd934",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340112000}
+      "_source":{"Message":"[http-bio-8080-exec-10] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340112000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "1fd415ae-83eb-4cf5-b614-2df92b622d5f",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-15] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340232000}
+      "_source":{"Message":"[http-bio-8080-exec-15] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":348,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340232000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "86267610-34fd-4076-acd5-96cc0da7304e",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-8] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":347,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340172000}
+      "_source":{"Message":"[http-bio-8080-exec-8] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":347,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340172000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "80a3b86a-9ef7-4f9b-93c0-9ef0a164ee55",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-6] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":347,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340292000}
+      "_source":{"Message":"[http-bio-8080-exec-6] \u001B[39mDEBUG\u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) Number of Records fetched: 2","Size":347,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"DEBUG","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340292000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "19f5c782-037a-49be-af59-867feeebfe46",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340352000}
+      "_source":{"Message":"[http-bio-8080-exec-18] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340352000}
     }, {
       "_index" : "syslog-20150904",
       "_type" : "syslog",
       "_id" : "6a6a10a9-2c1b-4284-bf9b-1378caaeefae",
       "_score" : 1.0,
-      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"server.simukit.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340412000}
+      "_source":{"Message":"[http-bio-8080-exec-12] \u001B[34mINFO \u001B[0;39m \u001B[36mn.i.a.u.c.f.CassandraFactory\u001B[0;39m - (Cassandra) CQL >> SELECT t FROM Tag t WHERE t.tagKey.companyId = :companyId. Params: {companyId=b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e}","Size":442,"UserId":"b5eeda2d-e4fe-4fe3-8b4b-00f1a7fe4c4e","IP":"127.0.0.1","Severity":"INFO","Host":"www.github.com","PID":0,"Process":"","Facility":"LOCAL6","Date":1441340412000}
     } ]
   }
 }

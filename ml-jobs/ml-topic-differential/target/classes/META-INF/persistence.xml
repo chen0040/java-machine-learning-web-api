@@ -7,8 +7,8 @@
     <persistence-unit name="cassandra_pu">
         <provider>com.impetus.kundera.KunderaPersistence</provider>
 
-        <class>com.simukit.meme.ml.models.AlgorithmModule</class>
-        <class>com.simukit.meme.ml.models.TopicModel</class>
+        <class>com.github.chen0040.ml.models.AlgorithmModule</class>
+        <class>com.github.chen0040.ml.models.TopicModel</class>
 
         <!-- This will exclude all other classes annotated with @Entity that is
        not declared above. Otherwise JPA will scan ALL classes in the Project and

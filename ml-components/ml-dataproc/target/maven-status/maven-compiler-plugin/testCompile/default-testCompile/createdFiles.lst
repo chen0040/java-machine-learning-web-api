@@ -1,2 +1,2 @@
-com\simukit\meme\ml\tests\discrete\kmeans\TestKMeans.class
-com\simukit\meme\ml\tests\discrete\utils\FileUtils.class
+com\github\chen0040\ml\tests\discrete\kmeans\TestKMeans.class
+com\github\chen0040\ml\tests\discrete\utils\FileUtils.class

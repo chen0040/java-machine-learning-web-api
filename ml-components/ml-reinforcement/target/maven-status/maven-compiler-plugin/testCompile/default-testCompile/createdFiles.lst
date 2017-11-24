@@ -1,2 +1,2 @@
-com\simukit\meme\ml\tests\reinforcement\AllTestSuite.class
-com\simukit\meme\ml\tests\reinforcement\JsonTest.class
+com\github\chen0040\ml\tests\reinforcement\AllTestSuite.class
+com\github\chen0040\ml\tests\reinforcement\JsonTest.class

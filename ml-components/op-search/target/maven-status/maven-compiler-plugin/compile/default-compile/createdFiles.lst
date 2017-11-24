@@ -1,4 +1,4 @@
-com\simukit\meme\op\search\naive\RandomSearch.class
-com\simukit\meme\op\search\naive\SweepingSearch.class
-com\simukit\meme\op\search\cgs\BetaFormula.class
-com\simukit\meme\op\search\cgs\NonlinearCGSearch.class
+com\github\chen0040\op\search\cgs\BetaFormula.class
+com\github\chen0040\op\search\cgs\NonlinearCGSearch.class
+com\github\chen0040\op\search\naive\RandomSearch.class
+com\github\chen0040\op\search\naive\SweepingSearch.class

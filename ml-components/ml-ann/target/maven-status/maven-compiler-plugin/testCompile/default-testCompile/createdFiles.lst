@@ -1,6 +1,6 @@
-com\simukit\meme\ml\tests\ann\classifiers\TestARTMAP.class
-com\simukit\meme\ml\tests\ann\classifiers\TestMLP.class
-com\simukit\meme\ml\ann\art\mas\utils\FileUtils.class
-com\simukit\meme\ml\tests\ann\clustering\TestART1.class
-com\simukit\meme\ml\tests\ann\clustering\TestFuzzyART.class
-com\simukit\meme\ml\tests\ann\clustering\TestSOFM.class
+com\github\chen0040\ml\tests\ann\clustering\TestFuzzyART.class
+com\github\chen0040\ml\tests\ann\clustering\TestSOFM.class
+com\github\chen0040\ml\tests\ann\classifiers\TestARTMAP.class
+com\github\chen0040\ml\tests\ann\clustering\TestART1.class
+com\github\chen0040\ml\ann\art\mas\utils\FileUtils.class
+com\github\chen0040\ml\tests\ann\classifiers\TestMLP.class

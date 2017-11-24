@@ -1,6 +1,6 @@
-com\simukit\meme\ml\commons\tables\DataColumnCollection.class
-com\simukit\meme\ml\commons\commands\MLProjectElementCreateCommand.class
-com\simukit\meme\ml\commons\tables\DataColumn.class
-com\simukit\meme\ml\commons\tables\DataTable.class
-com\simukit\meme\ml\commons\tables\DataRowCollection.class
-com\simukit\meme\ml\commons\tables\DataRow.class
+com\github\chen0040\ml\commons\tables\DataRow.class
+com\github\chen0040\ml\commons\tables\DataColumn.class
+com\github\chen0040\ml\commons\tables\DataRowCollection.class
+com\github\chen0040\ml\commons\commands\MLProjectElementCreateCommand.class
+com\github\chen0040\ml\commons\tables\DataTable.class
+com\github\chen0040\ml\commons\tables\DataColumnCollection.class

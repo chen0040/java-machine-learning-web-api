@@ -1,6 +1,36 @@
 # README #
 
+A simple machine learning web server that caters for small datasets
 
+# Usage
+
+git clone this project and run the following command:
+
+```bash
+cd devops/build
+./make.sh
+```
+
+If you are on Windows run the following command instead:
+
+```bash
+cd devops/build
+./make.ps1
+```
+
+This will build the ml-webapi-jersey.jar and ml-webapi-spring.jar in the devops/bin folder
+
+To run the web server, use the following command:
+
+```bash
+java -jar devops/bin/ml-webapi-spring.jar
+```
+
+Now navigate to your web browser and enter the following url: 
+
+```html
+http://localhost:8900
+```
 
 # Features
 

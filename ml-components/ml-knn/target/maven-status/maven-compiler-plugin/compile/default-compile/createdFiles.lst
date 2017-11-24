@@ -1,7 +1,7 @@
-com\simukit\meme\ml\knn\classifiers\KNNClassifier$1.class
-com\simukit\meme\ml\knn\anomaly\ORCA.class
-com\simukit\meme\ml\knn\anomaly\KNNDistanceAnomalyDetector$1.class
-com\simukit\meme\ml\knn\anomaly\ORCA$1.class
-com\simukit\meme\ml\knn\classifiers\KNNClassifier.class
-com\simukit\meme\ml\knn\anomaly\KNNDistanceAnomalyDetector.class
-com\simukit\meme\ml\knn\anomaly\KNNDistanceAnomalyDetector$StrategyType.class
+com\github\chen0040\ml\knn\anomaly\KNNDistanceAnomalyDetector$1.class
+com\github\chen0040\ml\knn\anomaly\ORCA.class
+com\github\chen0040\ml\knn\classifiers\KNNClassifier.class
+com\github\chen0040\ml\knn\anomaly\KNNDistanceAnomalyDetector.class
+com\github\chen0040\ml\knn\classifiers\KNNClassifier$1.class
+com\github\chen0040\ml\knn\anomaly\ORCA$1.class
+com\github\chen0040\ml\knn\anomaly\KNNDistanceAnomalyDetector$StrategyType.class

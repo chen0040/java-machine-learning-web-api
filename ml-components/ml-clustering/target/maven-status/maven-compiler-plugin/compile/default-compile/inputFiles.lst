@@ -1,5 +1,5 @@
-C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-clustering\src\main\java\com\simukit\meme\ml\clustering\em\EMClustering.java
-C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-clustering\src\main\java\com\simukit\meme\ml\clustering\hierarchical\HierarchicalClustering.java
-C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-clustering\src\main\java\com\simukit\meme\ml\clustering\kmeans\KMeans.java
-C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-clustering\src\main\java\com\simukit\meme\ml\clustering\dbscan\DBSCAN.java
-C:\Users\chen0\git\simukit.j\simukit\simukit-components\ml-clustering\src\main\java\com\simukit\meme\ml\clustering\onelink\SingleLinkageClustering.java
+C:\Users\chen0\git\java-machine-learning-web-api\ml-components\ml-clustering\src\main\java\com\github\chen0040\ml\clustering\em\EMClustering.java
+C:\Users\chen0\git\java-machine-learning-web-api\ml-components\ml-clustering\src\main\java\com\github\chen0040\ml\clustering\dbscan\DBSCAN.java
+C:\Users\chen0\git\java-machine-learning-web-api\ml-components\ml-clustering\src\main\java\com\github\chen0040\ml\clustering\hierarchical\HierarchicalClustering.java
+C:\Users\chen0\git\java-machine-learning-web-api\ml-components\ml-clustering\src\main\java\com\github\chen0040\ml\clustering\onelink\SingleLinkageClustering.java
+C:\Users\chen0\git\java-machine-learning-web-api\ml-components\ml-clustering\src\main\java\com\github\chen0040\ml\clustering\kmeans\KMeans.java

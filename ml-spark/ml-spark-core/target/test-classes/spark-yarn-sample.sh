@@ -6,11 +6,10 @@ export JAVA_HOME=/usr/java/jdk6
 export HADOOP_HOME=/usr/local/hadoop-2.3.0
 export HADOOP_CONF_DIR=$HADOOP_HOME/conf
 export YARN_CONF_DIR=$HADOOP_HOME/conf
-export APP_HOME=$HOME/Documents/SimuKit.J/ML-Spark
 export APP_JAR=$APP_HOME/target/ML-Spark.jar
 # Submit Spark' ApplicationMaster to YARN's ResourceManager,
 # and instruct Spark to run the LeftOUterJoin example
-prog=com.simukit.meme.ml.sparks.tests.LeftOuterJoin
+prog=com.github.chen0040.ml.sparks.tests.LeftOuterJoin
 SPARK_JAR=$SPARK_ASSEMBLY_JAR \
     $SPARK_HOME/bin/spark-class org.apache.spark.deploy.yarn.Client \
     --jar $APP_JAR \
